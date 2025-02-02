@@ -1,2 +1,6 @@
-.exe
-.obj
+# VS CODE
+.vscode/
+
+# COMPILER FILES
+*.obj
+*.exe
