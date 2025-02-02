@@ -14,3 +14,9 @@ Verify installation:
 
     gcc --version
     nasm --version
+
+Compiler File:
+
+    1.  nasm -f win64 [NAME_FILE_ASM].asm -o [NAME_FILE_OBJ].obj
+    2.  gcc [NAME_FILE_OBJ].obj -o [NAME_FILE_EXE].exe
+    3.  .\[NAME_FILE_EXE].exe    
