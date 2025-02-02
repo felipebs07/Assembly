@@ -23,10 +23,9 @@
 
 
 ### Vscode - CONFIGURE
-   Download 2 extensions: [NASM](https://marketplace.visualstudio.com/items?itemName=doinkythederp.nasm-language-support) AND [X86_64 Assembly](https://marketplace.visualstudio.com/items?itemName=13xforever.language-x86-64-assembly).
-
-    Create task.json
-    ```
+   1. Download 2 extensions: [NASM](https://marketplace.visualstudio.com/items?itemName=doinkythederp.nasm-language-support) AND [X86_64 Assembly](https://marketplace.visualstudio.com/items?itemName=13xforever.language-x86-64-assembly).
+    2. Create task.json
+```
     {
         "version": "2.0.0",
         "tasks": [
@@ -78,5 +77,5 @@
         ]
     }
     ```
-
-    now test running command in vscode `CTRL + Shift + B`
+    3.  now test running command in vscode CTRL + Shift + B
+    4.  if using win64, add in vscode settings with : "nasm.outputFormat": "win64"
